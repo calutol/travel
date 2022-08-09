@@ -4,6 +4,9 @@ body{
 .logo-nav{
     width: 128px;
 }
+.header-nav{
+    margin-top:127px;
+}
 .redes{
     width: 100%;
     height: 34px;
