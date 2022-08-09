@@ -1,0 +1,100 @@
+body{
+    font-family: 'Kanit', 'Mulish', sans-serif;
+}
+.logo-nav{
+    width: 128px;
+}
+.redes{
+    width: 100%;
+    height: 34px;
+    background: rgb(2,0,36);
+    background: linear-gradient(241deg, rgba(2,0,36,1) 0%, rgba(3,129,149,1) 0%, rgba(0,77,188,1) 0%, rgba(0,77,188,1) 0%, rgba(255,112,6,1) 100%);
+    /*background: rgb(2,0,36);
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(3,129,149,1) 0%, rgba(9,111,121,1) 33%, rgba(214,194,0,1) 100%, rgba(0,212,255,1) 100%);*/
+}
+.redes .info-btn{
+    padding:4px 0;
+}
+.info-btn a{
+    text-decoration: none;
+} 
+.info-btn a:hover{
+    text-decoration: none;
+}
+.call-center-head{
+    color: #fff;
+    margin-left: 6px;
+    font-family: 'Mulish';
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.pull-right{
+    float: right;
+}
+.pull-right i{
+    margin-left: 12px;
+    font-size: 18px;
+    color:#f8f9fa;
+}
+.navbar-sticky{
+    background: #fff;
+    z-index: 20;
+    box-shadow: rgb(0 0 0 / 30%) 0px 1px 2px 0px;
+    position: fixed!important;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+nav{
+    font-family: 'Mulish', sans-serif; 
+}
+#mainNav{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #fff;
+}
+header{
+    width: 100%;
+}
+.nav-item a:hover{
+    color: #ff7006 !important;
+    font-weight: 600;
+}
+.masthead .container-fluid{
+    padding:0;
+}
+.servicios{
+    height: 400px;
+    padding-top: 50px;
+    background-color: #eaeaea;
+}
+.servicios h2,h4{
+    font-family: 'Mulish';
+}
+.title-servicios-guia{
+    margin-bottom: 20px;
+}
+ /* carrucel*/
+ .carousel-control-next, .carousel-control-prev{
+    top: -100px !important;
+ }
+ @media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    margin-left: 30px;
+}
+.carousel-caption{
+    top: 10rem !important;
+}
+.carousel-caption h1{
+    color: #fff;
+    margin: 2px 0;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0 2px 16px #0000006b;
+}
+
+}
