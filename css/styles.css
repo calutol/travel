@@ -78,11 +78,12 @@ header{
 .title-servicios-guia{
     margin-bottom: 20px;
 }
- /* carrucel*/
- .carousel-control-next, .carousel-control-prev{
+ 
+ @media (min-width: 992px){
+/* carrucel*/
+.carousel-control-next, .carousel-control-prev{
     top: -100px !important;
  }
- @media (min-width: 992px){
 .navbar-expand-lg .navbar-collapse {
     margin-left: 30px;
 }
