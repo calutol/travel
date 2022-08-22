@@ -1,0 +1,13 @@
+<svg width="567" height="100" xmlns="http://www.w3.org/2000/svg">
+ <title>redic</title>
+ <defs>
+  <linearGradient id="svg_4" x1="0" y1="0" x2="1" y2="0" spreadMethod="pad">
+   <stop stop-color="#e50e0e" stop-opacity="0.99609" offset="0"/>
+   <stop stop-color="#ff6d00" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path fill="url(#svg_4)" d="m1.195,99.61829l111.60001,-98.00001l446.39997,0l-111.60001,98.00001l-446.39997,0z" id="svg_3"/>
+ </g>
+</svg>

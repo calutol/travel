@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+        <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <script src="https://kit.fontawesome.com/a39f274e63.js" crossorigin="anonymous"></script>
     <title>Agencia de Viaje Ilymar Travel</title>
   </head>
@@ -41,7 +43,7 @@
         <a class="nav-link active" aria-current="page" href="#">Home</a>
         <a class="nav-link" href="#">Features</a>
         <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled">Disabled</a>
+        <a class="nav-link" href="#">Other</a>
       </div>
     </div>
   </div>
@@ -49,18 +51,70 @@
 </section>
 <main>
   <section class="masthead">
-    <!--<img class="img-fluid" src="img/israel-turquia.png">--->
     <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 ">
+            <div class="dlsx">
+              <h1>Israel y Turquia</h1> 
+            </div>
+            <div class="dlsy">
+              <h2>04-17 Septiembre</h2> 
+            </div>
+          </div>
+          <div class="col-lg-6">
+          </div>
+        </div>
+      </div>
     </div>  
   </section>
   <section class="dest-home">
-    <div class="frm-list-home">
+    <div class="dtsx">
+      <h2>Destinos</h2> 
+    </div>
+    <!--<div class="li-dst-header"><img class="img-fluid" src="img/redic.svg"></div>
+    <div class="li-dst-hdr"><h2>Destinos</h2></div>-->
+    <div class="frm-list-home">     
     </div>
   </section>
-  <section class="list-booking-home">
-      <h1 class="text-center">Imagen de apoyo</h1>
+  <section class="list-booking-home" style="background-attachment:fixed;">
+    <div class="drsx">
+      <h2>Reserva</h2> 
+    </div>
+    <!--<div class="li-book-header"><img class="img-fluid" src="img/redic.svg"></div>
+    <div class="li-book-hdr"><h2>Reserva</h2></div>-->
+    <div class="container">
+  <div class="row p-5">
+    <div class="col-lg-9">
+      <div class="inf-edit-booking">
+        <p>Reserve con nosotros servicios de viaje nacionales e internacionales, reserva
+          <br>
+          y compra boletos aéreos, seguros de viaje, hospedaje internacional y nacional
+          <br>
+          paquetes turísticos vacacionales personalizados, alquile autos.</p>
+          <br>
+        <p>Brindamos asistencia las 24 horas, los 7 días de la semana a nuestros clientes.</p>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="sello">
+        <div class="sello-innir">
+          <span>
+            #Ilymar
+            <span class="tera">Travel</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   </section>
   <section class="list-comment-home">
+    <div class="dcsx">
+      <h2>Nuestros clientes dicen </h2> 
+    </div>
+    <!--<div class="li-com-header"><img class="img-fluid" src="img/redic.svg"></div>
+    <div class="li-com-hdr"><h2>Nuestros clientes dicen <i class="fa-regular fa-heart"></i></h2></div>-->
     <div class="comment-home">
     </div>
   </section>
@@ -108,5 +162,26 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>

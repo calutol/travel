@@ -6,9 +6,9 @@ body{
     padding: 0;
 }
 .ilymartravel-web nav{
-    -webkit-box-shadow: 0px 10px 10px -14px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 10px 10px -14px rgba(0,0,0,0.75);
-    box-shadow: 0px 10px 10px -14px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 13px 12px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 13px 12px -14px rgba(0,0,0,0.75);
+    box-shadow: 0px 13px 12px -14px rgba(0,0,0,0.75);
 }
 .ilymartravel-web .fixed-top >.navbar-expand-lg .navbar-nav .nav-link{
     padding-right: 2rem;
@@ -50,18 +50,76 @@ main{
     margin-top: 92px; 
 }
 .masthead{
+    position: relative;
     background-color: #00b2d5;
-    height: 450     px;
+    height: 450px;
+    background-image: url(../img/israel-turquia.png);
+    background-repeat: no-repeat;
+}
+.dlsx{
+    margin-top: 130px;
+    width: 80%;
+    height: auto;
+    background: rgb(234,31,13);
+    background: linear-gradient(90deg, rgba(234,31,13,1) 0%, rgba(251,99,3,1) 100%);
+    display: table;
+    transform: skewx(-43deg);
+}
+.dlsx h1{ 
+    padding: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f8f9fa;
+    transform: skew(31deg, 0deg);
+}
+.dlsy{
+    margin-top: -22px;
+    width: 67%;
+    height: auto;
+    background: rgb(234,31,13);
+    background-color: white;
+    display: table;
+    transform: skewx(-43deg);
+}
+.dlsy h2{ 
+    padding: 8px;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fa5f03;
+    transform: skew(31deg, 0deg);
 }
 /** -------------- CSS Lista de Destinos General -------------- */
+.dtsx{
+    position: absolute;
+    left: 160px;
+    top:-96px;
+    padding: 0 40px;
+    margin-top: 130px;
+    width: auto;
+    height: auto;
+    background: rgb(234,31,13);
+    background: linear-gradient(90deg, rgba(234,31,13,1) 0%, rgba(251,99,3,1) 100%);
+    display: table;
+    transform: skewx(-43deg);
+    z-index: 1000;
+}
+.dtsx h2{ 
+    padding: 8px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #f8f9fa;
+    transform: skew(31deg, 0deg);
+}
 .dest-home{
     background-color: #00b2d5;
-    height: 300px;
+    height: 420px;
     position:relative; 
 }
 .dest-home >.frm-list-home{
     width: 89%;
-    height: 220px;
+    height: 290px;
     background-color: #f8f9fa;
     border-radius: 20px;
     margin: auto;
@@ -70,20 +128,126 @@ main{
     left: 0;
     right: 0
 }
+.li-dst-header img{
+    z-index: 1000;
+    position: absolute;
+    width: 300px;
+    top: 30px;
+    left: 126px;
+}
+.li-dst-hdr{
+    position: absolute;
+    z-index: 1020;
+    left: 206px;
+    top: 36px;
+    color: #f8f9fa;
+}
 /** -------------- CSS Booking General -------------- */
+.drsx{
+    position: absolute;
+    left: 160px;
+    top:-158px;
+    padding: 0 40px;
+    margin-top: 130px;
+    width: auto;
+    height: auto;
+    background: rgb(234,31,13);
+    background: linear-gradient(90deg, rgba(234,31,13,1) 0%, rgba(251,99,3,1) 100%);
+    display: table;
+    transform: skewx(-43deg);
+    z-index: 1000;
+}
+.drsx h2{ 
+    padding: 8px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #f8f9fa;
+    transform: skew(31deg, 0deg);
+}
 .list-booking-home{
-    background-color: silver;
-    height: 300px;
+    position: relative;
+    height: 360px;
+    background-image: url(../img/turquia2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+.inf-edit-booking{
+    color: #f8f9fa;
+    margin-top: 64px;
+}
+.li-book-header{
+    position: absolute;
+    width: 300px;
+    z-index: 1000;
+    top: -26px;
+    left: 126px;
+}
+.li-book-hdr{
+    position: absolute;
+    z-index: 1020;
+    left: 216px;
+    top: -20px;
+    color: #f8f9fa;
+}
+.sello{
+    padding: 5px;
+    background: linear-gradient(35deg, #e91e0d 0%, #fd6601 100%);
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #000;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    z-index: 1;
+    margin: 60% 98% 0px;
+}
+.sello span{
+    color: #fff;
+    font-size: 25px;
+}
+.sello span.tera{
+    display: block;
+    margin-top: -22px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.sello-innir{
+    height: 140px;
+    width: 140px;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    padding: 36px 0;
+    background: linear-gradient(35deg, #e91e0d 0%, #fd6601 100%);
 }
 /** -------------- CSS Comment General -------------- */
+.dcsx{
+    position: absolute;
+    left: 160px;
+    top:-100px;
+    padding:0 40px;
+    margin-top: 130px;
+    width: auto;
+    height: auto;
+    background: rgb(234,31,13);
+    background: linear-gradient(90deg, rgba(234,31,13,1) 0%, rgba(251,99,3,1) 100%);
+    display: table;
+    transform: skewx(-43deg);
+    z-index: 1000;
+}
+.dcsx h2{ 
+    padding: 8px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #f8f9fa;
+    transform: skew(31deg, 0deg);
+}
 .list-comment-home{
     background: #fbb03b;
-    height: 300px;
+    height: 420px;
     position: relative;
 }
 .list-comment-home> .comment-home{
     width: 90%;
-    height: 220px;
+    height: 264px;
     background-color: #f8f9fa;
     border-radius: 20px;
     margin: auto;
@@ -91,6 +255,21 @@ main{
     top: 14%;
     left: 0;
     right: 0
+}
+.li-com-header img{
+    z-index: 1000;
+    position: absolute;
+    width: 600px;
+    height: 53px;
+    top: 30px;
+    left: 126px;
+}
+.li-com-hdr{
+    position: absolute;
+    z-index: 1020;
+    left: 235px;
+    top: 36px;
+    color: #f8f9fa;
 }
 /** -------------- CSS Footer General -------------- */
 .inf-footer{
@@ -137,3 +316,5 @@ main{
 .inf-ilymar-travel p{
     margin: 0;
 }
+/*
+}*/

@@ -1,0 +1,13 @@
+<svg width="620" height="100" xmlns="http://www.w3.org/2000/svg" stroke="null">
+ <title>redic_oran</title>
+ <defs stroke="null">
+  <linearGradient y2="0.03595" x2="0.71875" y1="0.03986" x1="0.20313" id="svg_13">
+   <stop offset="0" stop-opacity="0.99609" stop-color="#e50e0e"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#ff6d00"/>
+  </linearGradient>
+ </defs>
+ <g stroke="null">
+  <title stroke="null">Layer 1</title>
+  <path stroke="null" id="svg_3" d="m1.195,98.75l123.3666,-99.50001l493.4663,0l-123.3666,99.50001l-493.4663,0z" fill="url(#svg_13)"/>
+ </g>
+</svg>
