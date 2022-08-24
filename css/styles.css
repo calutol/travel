@@ -55,6 +55,8 @@ main{
     height: 450px;
     background-image: url(../img/israel-turquia.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .dlsx{
     margin-top: 130px;
@@ -352,6 +354,21 @@ main{
     background-image: url(../img/turquia2.jpg);
     background-repeat: no-repeat;
     background-position: 0 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.list-booking-home > .container{
+    position: relative;
+    z-index: 1010;
+}
+.list-booking-home::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(29 12 12 / 89%));
 }
 .inf-edit-booking{
     color: #f8f9fa;
@@ -366,7 +383,7 @@ main{
     height: 150px;
     width: 150px;
     z-index: 1;
-    margin: 60% 98% 0px;
+    margin: 20% auto 0;
 }
 .sello span{
     color: #fff;
@@ -395,9 +412,10 @@ main{
 .dcsx{
     position: absolute;
     left: 160px;
-    top:-100px;
+    /*top:-100px;*/
     padding:0 40px;
-    margin-top: 130px;
+    /*margin-top: 130px;*/
+    margin-top: -51px;
     width: auto;
     height: auto;
     background: rgb(234,31,13);
@@ -415,20 +433,44 @@ main{
     transform: skew(31deg, 0deg);
 }
 .list-comment-home{
-    background: #fbb03b;
-    height: 420px;
-    position: relative;
+    background-color: #fbb03b;
+    position:relative;
 }
-.list-comment-home> .comment-home{
-    width: 90%;
-    height: 264px;
-    background-color: #f8f9fa;
-    border-radius: 20px;
-    margin: auto;
-    position: absolute;
-    top: 14%;
-    left: 0;
-    right: 0
+.list-comment-home > .mainc{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-comment-home > .mainc > .comment-home{
+    max-width: 90%;
+    width: 100%;
+    background-color: #EFEFEF;
+    padding: 24px 0;
+    margin: 60px 0;
+    border-radius: 25px;
+}
+/************************************************************/
+.list-comment-home > .mainc > .comment-home > .cardv-group{
+    margin: 20px 40px 40px 40px;
+    border-radius: 25px;
+}
+.comment-home > .cardv-group > .col > .card{
+    border-radius: 25px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 20px 20px -14px rgb(42 61 95 / 40%), 0 0 10px rgb(45 53 66 / 50%);
+}
+.rank-comt{
+    padding: 10px 0;
+}
+.rank-comt i{
+    color: #fbb03b;
+    font-size: 1.2rem;
+}
+.cardv-group > .col > .card > .card-footer{
+    border-radius: 0 0 25px 25px;
+    background-color: #ffffff;
+    border-top: 1px dashed #cbc7c7;
 }
 @media screen and (max-width: 576px){
     .dcsx{
@@ -444,6 +486,18 @@ main{
 .inf-footer{
     background-color: #3e3d3d;
     height: 200px;
+}
+.inf-footer .lk{
+    padding: 10px 0 15px;
+    position: relative;
+    z-index: 1;
+}
+.inf-footer .footer-links{
+    padding: 30px 0 41px;
+    border-top: 1px dashed #cccccc3b;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
 }
 .inf-footer h4{
     color: #fbb03b;
@@ -480,7 +534,7 @@ main{
     height: 34px;
     color: #dbd5d5;
     font-size: 0.8rem;
-    background: #121212;
+    background: #302f2f;
 }
 .inf-ilymar-travel p{
     margin: 0;
