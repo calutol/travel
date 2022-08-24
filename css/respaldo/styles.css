@@ -64,7 +64,6 @@ main{
     background: linear-gradient(90deg, rgba(234,31,13,1) 0%, rgba(251,99,3,1) 100%);
     display: table;
     transform: skewx(-43deg);
-    box-shadow: 0px 13px 12px -14px rgb(0 0 0 / 75%);
 }
 .dlsx h1{ 
     padding: 16px;
@@ -81,7 +80,6 @@ main{
     background-color: white;
     display: table;
     transform: skewx(-43deg);
-    box-shadow: 0px 13px 12px -14px rgb(0 0 0 / 75%);
 }
 .dlsy h2{ 
     padding: 8px;
@@ -110,7 +108,6 @@ main{
     display: table;
     transform: skewx(-43deg);
     z-index: 1000;
-    box-shadow: 0px 13px 12px -14px rgb(0 0 0 / 75%);
 }
 .dtsx h2{ 
     padding: 8px;
@@ -169,28 +166,15 @@ main{
 .image-contentv{
     position: relative;
     row-gap:5px;
-    padding: 0;
-    height: 230px;
-    overflow: hidden;
-}
-.image-contentv .yuju{
-    max-width: 100%;
-}
-
-.image-contentv .img-sl-cont{
-    border-radius: 25px 25px 0 25px;
-}
-.yoli{
-    width: 100%;
-    height: 40px;
-    background: #0000007a;
-    position: absolute;
-    border-radius: 0 0 0px 25px;
-    bottom: 0;
-    -webkit-box-shadow: 46px 4px 36px 4px rgb(0 0 0 / 90%);
-    box-shadow: 42px 4px 36px 4px rgb(0 0 0 / 90%);
+    padding: 25px 0;
 }
 /*---------------------------- PRUEBA------------*/
+.image-contentv .yuju{
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    background-color: red;
+}
 
 .overlayv{
     position: absolute;
@@ -200,20 +184,6 @@ main{
     width:100%;
     background-color:#4070F4; 
     border-radius: 25px 25px 0 25px;
-}
-.pxs::before,
-.pxs::after{
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: 142px;
-    height: 40px;
-    width: 40px;
-    background-color: #212529; 
-}
-.pxs::after{
-    border-radius: 0 25px 0 0;
-    background-color: #ffffff; 
 }
 /*----------------fondo azul*-------------*/
 .overlayv::before,
@@ -250,15 +220,11 @@ main{
     font-size: 18px;
     font-weight: 500;
     color:#333;
-    margin: 12px 4px;
-    z-index: 1000;
 }
 .despction{
     font-size: 14px;
     color:#707070;
     text-align: center;
-    overflow: hidden;
-    height: 60px;
 }
 .buttonv{
     border: none;
@@ -267,12 +233,12 @@ main{
     padding: 8px 16px;
     background-color: #4070F4;
     border-radius: 6px;
-    margin:0; 
+    margin:14px; 
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .buttonv:hover{
-    background: #2f59cb;
+    background: red;
 }
 .swiper-naVBtn{
     color: #6e93f7;
@@ -320,7 +286,6 @@ main{
     display: table;
     transform: skewx(-43deg);
     z-index: 1000;
-    box-shadow: 0px 13px 12px -14px rgb(0 0 0 / 75%);
 }
 .drsx h2{ 
     padding: 8px;
@@ -383,7 +348,6 @@ main{
     display: table;
     transform: skewx(-43deg);
     z-index: 1000;
-    box-shadow: 0px 13px 12px -14px rgb(0 0 0 / 75%);
 }
 .dcsx h2{ 
     padding: 8px;
