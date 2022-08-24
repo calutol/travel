@@ -312,6 +312,17 @@ main{
         display: none;
     }
 }
+@media screen and (max-width: 576px){
+    .dtsx{
+        left: 70px;
+        top: -94px; 
+    }
+    .slider-containerv{
+    max-width: none;
+    border-radius: 0px;
+    }
+}
+
 /** -------------- CSS Booking General -------------- */
 .drsx{
     position: absolute;
@@ -375,6 +386,11 @@ main{
     padding: 36px 0;
     background: linear-gradient(35deg, #e91e0d 0%, #fd6601 100%);
 }
+@media screen and (max-width: 576px){
+    .drsx{
+        left: 70px;
+    }
+}
 /** -------------- CSS Comment General -------------- */
 .dcsx{
     position: absolute;
@@ -413,6 +429,16 @@ main{
     top: 14%;
     left: 0;
     right: 0
+}
+@media screen and (max-width: 576px){
+    .dcsx{
+        left: 29px;
+        top: -95px;
+        padding: 0px 7px
+    }
+    .dcsx h2{
+        font-size: 22px;
+    }
 }
 /** -------------- CSS Footer General -------------- */
 .inf-footer{
@@ -459,5 +485,6 @@ main{
 .inf-ilymar-travel p{
     margin: 0;
 }
+
 /*
 }*/
