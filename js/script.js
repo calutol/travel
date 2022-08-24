@@ -5,9 +5,9 @@ var swiper = new Swiper(".slider-contentv", {
         centerSlide: 'true',
         fade: 'true',
         grabCursor: 'true',
-        /*autoplay: {
+        autoplay: {
           delay: 5000,
-        },*/
+        },
         pagination: {
           el: ".swiper-pagination",
           clickable: true,

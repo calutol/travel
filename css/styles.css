@@ -141,12 +141,12 @@ main{
     max-width: 90%;
     width: 100%;
     background-color: #EFEFEF;
-    padding: 40px 0;
+    padding: 24px 0;
     margin: 60px 0;
     border-radius: 25px;
 }
 .slider-contentv{
-    margin: 14px 40px;
+    margin: 2px 40px;
     overflow: hidden;
     border-radius: 25px;
 }
@@ -158,6 +158,9 @@ main{
     height: 100%;
     border-radius: 25px;
     background-color: #FFF;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 20px 20px -14px rgb(42 61 95 / 40%), 0 0 10px rgb(45 53 66 / 50%);
+    margin: 30px 0;
 }
 .image-contentv,
 .card-contentv{
@@ -172,13 +175,16 @@ main{
     padding: 0;
     height: 230px;
     overflow: hidden;
+    border-radius: 25px 25px 0 25px;
 }
 .image-contentv .yuju{
     max-width: 100%;
+    width:100%;
 }
 
 .image-contentv .img-sl-cont{
     border-radius: 25px 25px 0 25px;
+    width:calc(100% + 60px)!important;
 }
 .yoli{
     width: 100%;
@@ -206,7 +212,7 @@ main{
     content: '';
     position: absolute;
     right: 0;
-    bottom: 142px;
+    bottom: 141px;
     height: 40px;
     width: 40px;
     background-color: #212529; 
