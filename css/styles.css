@@ -48,6 +48,11 @@ body{
 .nav-header-top a>img{
     width: 110px;
 }
+@media screen and (max-width: 768px){
+    .nav-header-top a>img{
+        width: 172px;
+    }
+}
 /** -------------- CSS Cuerpo General -------------- */
 main{
     margin-top: 92px; 
@@ -324,9 +329,11 @@ main{
     .slider-containerv{
     max-width: none;
     border-radius: 0px;
+    padding: 30px 0 40px 0;
     }
     .slider-contentv{
         margin: 0px 12px;
+        overflow: visible;
     }
     .cardx{
         border-radius: 0px;
@@ -368,9 +375,10 @@ main{
     height: 100%;
     background-image: url(../img/turquia2.jpg);
     background-repeat: no-repeat;
-    background-position: 0 100%;
-    background-size: cover;
     background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 .list-booking-home > .container{
     position: relative;
@@ -388,6 +396,13 @@ main{
 .inf-edit-booking{
     color: #f8f9fa;
     margin-top: 64px;
+}
+.inf-edit-booking h2{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.inf-edit-booking .thank{
+    font-size: 1.3rem;
 }
 .sello{
     padding: 5px;
@@ -422,6 +437,13 @@ main{
     .drsx{
         left: 90px;
         display: none
+    }
+    .inf-edit-booking{
+        margin: 0;
+        text-align: center;
+    }
+    .sello{
+        margin: 3% auto 0;
     }
 }
 /** -------------- CSS Comment General -------------- */
@@ -494,7 +516,6 @@ main{
     }
     .dbck-movil{
         text-align: center;
-        margin: 20px auto; 
     }
     .dbck-movil h4{
         font-size: 18px;
@@ -511,6 +532,9 @@ main{
     .comment-home > .cardv-group > .col > .card{
         border-radius: 0px;
         box-shadow: 0 20px 20px -14px rgb(42 61 95 / 40%), 0 0 10px rgb(45 53 66 / 1%);
+    }
+    .image-contentv .img-sl-cont{
+        border-radius: 0px;
     }
 }
 /** -------------- CSS Footer General -------------- */
@@ -571,6 +595,13 @@ main{
 .inf-ilymar-travel p{
     margin: 0;
 }
-
+@media screen and (max-width: 768px){ 
+    .inf-footer .footer-links{
+        text-align: center;
+    }   
+    .inf-footer .footer-links ul>li{
+        text-align: center;
+    }
+}
 /*
 }*/
