@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 /** -------------- CSS General Ilymar Travel-------------- */
 body{
-    font-family: 'Kanit', 'Mulish', sans-serif;
+    font-family: 'Kanit','Lato', 'Mulish', sans-serif;
 }
 .ilymartravel-web .navbar{
     padding: 0;
@@ -318,6 +319,7 @@ main{
 @media screen and (max-width: 576px){
     .dtsx{
         left: 90px;
+        display: none;
     }
     .slider-containerv{
     max-width: none;
@@ -325,6 +327,15 @@ main{
     }
     .slider-contentv{
         margin: 0px 12px;
+    }
+    .cardx{
+        border-radius: 0px;
+    }
+    .image-contentv{
+        border-radius: 0px;
+    }
+    .yoli, .pxs{
+        display: none;
     }
 }
 
@@ -410,6 +421,7 @@ main{
 @media screen and (max-width: 576px){
     .drsx{
         left: 90px;
+        display: none
     }
 }
 /** -------------- CSS Comment General -------------- */
@@ -478,15 +490,27 @@ main{
 }
 @media screen and (max-width: 576px){
     .dcsx{
-        left: 42px;
-        padding: 0px 7px
+        display: none;
     }
+    .dbck-movil{
+        text-align: center;
+        margin: 20px auto; 
+    }
+    .dbck-movil h4{
+        font-size: 18px;
+    }
+
     .list-comment-home > .mainc > .comment-home{
         max-width: 100%;
         border-radius: 0;
+        background-color: #FFF;
     }
     .list-comment-home > .mainc > .comment-home > .cardv-group{
         margin: 20px 12px 40px 12px;
+    }
+    .comment-home > .cardv-group > .col > .card{
+        border-radius: 0px;
+        box-shadow: 0 20px 20px -14px rgb(42 61 95 / 40%), 0 0 10px rgb(45 53 66 / 1%);
     }
 }
 /** -------------- CSS Footer General -------------- */
