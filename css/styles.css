@@ -294,14 +294,15 @@ main{
 }
 @media screen and (max-width: 576px){
     .dest-home{
-            background-color: #efefef;
+        background-color: #ffffff;
     }
 
     .slider-containerv{
         max-width: none;
         border-radius: 0px;
-        padding: 0;
+        padding: 36px 0 68px 0;
         margin:0;
+        background-color: #ffffff;
 
     }
     .dtsx{
