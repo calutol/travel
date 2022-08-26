@@ -46,16 +46,16 @@ body{
     margin-right: 4rem;
 }
 .nav-header-top a>img{
-    width: 110px;
+    width: 190px;
 }
 @media screen and (max-width: 768px){
     .nav-header-top a>img{
-        width: 172px;
+        width: 190px;
     }
 }
 /** -------------- CSS Cuerpo General -------------- */
 main{
-    margin-top: 92px; 
+    margin-top: 132px; 
 }
 .masthead{
     position: relative;
