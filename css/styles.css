@@ -300,8 +300,9 @@ main{
     .slider-containerv{
     max-width: none;
     border-radius: 0px;
-    padding: 36px 0 68px 0;
+    padding: 0;
     margin:0;
+    background-color: #efefef;
     }
     .slider-contentv{
         margin: 0px 12px;
