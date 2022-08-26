@@ -46,7 +46,7 @@ body{
     margin-right: 4rem;
 }
 .nav-header-top a>img{
-    width: 190px;
+    width: 170px;
 }
 @media screen and (max-width: 768px){
     .nav-header-top a>img{
@@ -55,7 +55,7 @@ body{
 }
 /** -------------- CSS Cuerpo General -------------- */
 main{
-    margin-top: 132px; 
+    margin-top: 123px; 
 }
 .masthead{
     position: relative;
@@ -195,16 +195,6 @@ main{
     border-radius: 25px 25px 0 25px;
     width:calc(100% + 60px)!important;
 }
-.yoli{
-    width: 100%;
-    height: 40px;
-    background: #0000007a;
-    position: absolute;
-    border-radius: 0 0 0px 25px;
-    bottom: 0;
-    -webkit-box-shadow: 46px 4px 36px 4px rgb(0 0 0 / 90%);
-    box-shadow: 42px 4px 36px 4px rgb(0 0 0 / 90%);
-}
 /*---------------------------- PRUEBA------------*/
 
 .overlayv{
@@ -215,20 +205,6 @@ main{
     width:100%;
     background-color:#4070F4; 
     border-radius: 25px 25px 0 25px;
-}
-.pxs::before,
-.pxs::after{
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: 141px;
-    height: 40px;
-    width: 40px;
-    background-color: #212529; 
-}
-.pxs::after{
-    border-radius: 0 25px 0 0;
-    background-color: #ffffff; 
 }
 /*----------------fondo azul*-------------*/
 .overlayv::before,
@@ -340,9 +316,6 @@ main{
     }
     .image-contentv{
         border-radius: 0px;
-    }
-    .yoli, .pxs{
-        display: none;
     }
 }
 
